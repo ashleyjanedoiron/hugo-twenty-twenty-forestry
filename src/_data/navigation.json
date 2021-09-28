@@ -1,20 +1,28 @@
 {
     "main": [
         {
-            "text": "Duoloog",
+            "text": "Over Markaid",
             "url": ""
         },
         {
-            "text": "Toepassingen",
-            "url": "/toepassingen/"
+            "text": "Cases",
+            "url": ""
         },
         {
-            "text": "Projecten",
-            "url": "/projecten/"
+            "text": "Diensten",
+            "url": ""
+        },
+        {
+            "text": "Aanpak",
+            "url": ""
+        },
+        {
+            "text": "Werken bij",
+            "url": ""
         },
         {
             "text": "Contact",
-            "url": "/contact/"
+            "url": ""
         }
     ]
 }

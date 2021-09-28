@@ -1,6 +1,34 @@
-# Markaid website
-Markaid website made with eleventy
+# MArkAid
 
-1. npm install
-2. npx eleventy --serve for watching files
-3. npx eleventy for build website in _site folder
+Markaid is a Website based on eleventy and Forestry CMS
+
+## local development
+
+1. Clone this repository:
+
+```
+git clone https://Iquality@dev.azure.com/Iquality/Markaid/_git/Markaid
+```
+
+### 2. Navigate to the directory
+
+```
+cd
+```
+
+### 3. Install dependencies
+
+```
+npm install
+```
+
+### 4. Run Eleventy (builds the site)
+
+```
+npm run build
+```
+
+Or build automatically when a template changes:
+```
+npm run start
+```

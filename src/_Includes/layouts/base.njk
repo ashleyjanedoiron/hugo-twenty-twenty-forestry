@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    {# {%- include "partials/meta-info.njk" -%} #}
+
+    <!-- Font preloading -->
+    {# <link rel="preload" href="{{ '/assets/fonts/montserrat-v14-latin-regular.woff2' | url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/montserrat-v14-latin-700.woff2' | url }}" as="font" type="font/woff2" crossorigin> #}
+
+    {# <link rel="stylesheet" href="/assets/css/screen.css"> #}
+</head>
+<body class="tmp-{{ pageType }}">
+    {# {%- include "../../assets/svg/symbols.svg" -%} #}
+    {# {%- include "partials/site-header.njk" -%} #}
+
+    <main class="o-main">
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    {# {%- include "partials/site-footer.njk" -%} #}
+
+    {# <script>{% include "../../assets/js/bundle.js" %}</script> #}
+
+</body>
+</html>

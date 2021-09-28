@@ -1,0 +1,20 @@
+{
+    "main": [
+        {
+            "text": "Duoloog",
+            "url": ""
+        },
+        {
+            "text": "Toepassingen",
+            "url": "/toepassingen/"
+        },
+        {
+            "text": "Projecten",
+            "url": "/projecten/"
+        },
+        {
+            "text": "Contact",
+            "url": "/contact/"
+        }
+    ]
+}

@@ -1,4 +1,28 @@
 ---
 label: Hero
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: sub_title
+  type: text
+  config:
+    required: false
+  label: Sub titel
+- name: intro
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Intro
+- name: image
+  type: include
+  config: {}
+  template: responsive-image
+  label: Afbeelding

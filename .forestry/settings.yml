@@ -11,6 +11,11 @@ sections:
   label: Pages
   create: documents
   match: "*.md"
+- type: directory
+  path: cases
+  label: Cases
+  create: documents
+  match: "*.md"
 - type: heading
   label: Global
 - type: document

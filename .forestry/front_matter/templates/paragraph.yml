@@ -1,4 +1,23 @@
 ---
 label: Paragraph
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text
+- name: link
+  type: include
+  config: {}
+  template: link
+  label: Link

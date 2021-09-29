@@ -1,4 +1,29 @@
 ---
 label: Responsive image
 hide_body: false
-fields: []
+fields:
+- name: image_set
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image small
+  - name: image_medium
+    type: file
+    config:
+      maxSize: 64
+    label: Image medium
+  - name: image_large
+    type: file
+    config:
+      maxSize: 64
+    label: Image large
+  - name: alternative_text
+    type: text
+    config:
+      required: false
+    label: Alternative text
+  label: Image set

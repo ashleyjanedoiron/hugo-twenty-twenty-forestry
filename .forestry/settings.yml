@@ -12,7 +12,7 @@ sections:
   create: documents
   match: "*.md"
 - type: directory
-  path: cases
+  path: src/cases
   label: Cases
   create: documents
   match: "*.md"
@@ -21,6 +21,10 @@ sections:
 - type: document
   path: src/_data/navigation.json
   label: Navigatie
+- type: document
+  path: src/_data/site.json
+  label: Website settings
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''

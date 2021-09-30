@@ -1,5 +1,5 @@
 ---
-label: Paragraph-with-image-right
+label: Paragraph-with-image-left
 hide_body: true
 fields:
 - name: title
@@ -11,7 +11,7 @@ fields:
   type: text
   config:
     required: false
-  label: Sub titel
+  label: Sub title
 - name: text
   type: textarea
   default: ''

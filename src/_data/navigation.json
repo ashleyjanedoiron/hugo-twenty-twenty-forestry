@@ -20,5 +20,55 @@
       "text": "Contact",
       "url": ""
     }
+  ],
+  "footer": [
+    {
+      "title": "Footer header",
+      "links": [
+        {
+          "text": "Footer link",
+          "url": "https://www.nu.nl"
+        }
+      ]
+    },
+    {
+      "title": "Footer header",
+      "links": [
+        {
+          "text": "Footer link",
+          "url": "https://www.nu.nl"
+        },
+        {
+          "text": "Footer link",
+          "url": "https://www.nu.nl"
+        },
+        {
+          "text": "Footer link",
+          "url": "https://www.nu.nl"
+        },
+        {
+          "text": "Footer link",
+          "url": "https://www.nu.nl"
+        }
+      ]
+    },
+    {
+      "title": "Footer header",
+      "links": [
+        {
+          "text": "Footer link",
+          "url": "https://www.nu.nl"
+        }
+      ]
+    },
+    {
+      "title": "Footer header",
+      "links": [
+        {
+          "text": "Footer link",
+          "url": "https://www.nu.nl"
+        }
+      ]
+    }
   ]
 }

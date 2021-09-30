@@ -22,12 +22,6 @@
                             <section class="u-col-m-6 u-col-l-{{ colSpan }} c-footer__links">
                                 <h3 class="u-h6 c-footer__header">
                                     <span>{{ item.title }}</span>
-                                    <button type="button" data-toggle class="quicklinks-toggle" aria-expanded="false" aria-controls="submenu-list-{{ loop.index }}">
-                                        {{ item.title }}
-                                        <svg class="icon icon-caret-down">
-                                            <use xlink:href="#icon-caret-down"></use>
-                                        </svg>
-                                    </button>
                                 </h3>
                                 <ul id="submenu-list-{{ loop.index }}" class="c-footer__links-list{% if item.expand %} --is-active{% endif %}">
                                     {% for subItem in item.links %}
@@ -45,8 +39,8 @@
         </div>
         <div class="c-footer__bottom">
             <div class="o-container">
-                <p class="c-footer__copyright">&copy; {{ build.timestamp | dateToFormat('yyyy') }} - {{ site.name }}</p>
-                <p class="c-footer__payoff">Duoloog is een product van <a href=""> Purple Unity</a></p>
+                {# <p class="c-footer__copyright">&copy; {{ build.timestamp | dateToFormat('yyyy') }} - {{ site.name }}</p> #}
+                <p class="c-footer__payoff">Markaid is een product van <a href=""> Iquality</a></p>
             </div>
         </div>
     </div>

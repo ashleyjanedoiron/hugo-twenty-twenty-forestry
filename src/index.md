@@ -9,6 +9,28 @@ image_set:
   image_large: ''
   alternative_text: ''
 page_sections:
+- template: feature
+  title: Drie blokken
+  text: Hier kan een tekst geplaatst worden
+  features:
+  - title: Jungle van digitale marketing tools
+    text: CMS, DXP, DAM, digital analytics, content curation, e-mail marketing, marketing
+      automation, chatbot, social listening, voice, CRM, ... Duizelt het al? Wij brengen
+      structuur in jouw jungle.
+    icon: ''
+  - title: Eindelijk rendement uit je marketingtool
+    text: Wereldwijd is 80% van alle marketeers niet tevreden met hun huidige hun
+      online tools. Herkenbaar? Wij je rendement te halen uit je huidige of nieuwe
+      tools.
+    icon: ''
+  - title: 'Wij regelen het voor je! '
+    text: Veel marketeers besteden dagelijks veel tijd aan het maken en invoeren van
+      content. Ligt hier ook jouw focus of leg je die liever bij je online marketing
+      strategie? Wij helpen jou met de operationele taken.
+    icon: ''
+  type: ''
+  link_url: ''
+  link_text: ''
 - template: paragraph-with-image-right
   text: Markaid helpt marketeers! We ondersteunen marketeers bij de inrichting van
     systemen als het invoeren van content. Hiermee slaan we een brug tussen technologie

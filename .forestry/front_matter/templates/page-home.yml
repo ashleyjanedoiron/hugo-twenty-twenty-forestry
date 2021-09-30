@@ -12,7 +12,7 @@ fields:
   config: {}
   template: hero
   label: Hero
-- name: pageSections
+- name: page_sections
   type: blocks
   label: Pagina secties
   template_types:

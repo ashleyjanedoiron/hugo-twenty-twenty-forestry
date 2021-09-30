@@ -1,5 +1,5 @@
 ---
-label: Paragraph-with-image-left
+label: Paragraph-with-image-right
 hide_body: true
 fields:
 - name: title
@@ -11,7 +11,7 @@ fields:
   type: text
   config:
     required: false
-  label: Sub titel
+  label: Sub Titel
 - name: text
   type: textarea
   default: ''
@@ -20,7 +20,7 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
-  label: Text
+  label: Tekst
 - name: link
   type: include
   config: {}

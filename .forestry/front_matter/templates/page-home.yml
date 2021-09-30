@@ -22,3 +22,5 @@ fields:
   config:
     min: 
     max: 
+pages:
+- src/index.md

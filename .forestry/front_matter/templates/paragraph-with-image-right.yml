@@ -11,7 +11,7 @@ fields:
   type: text
   config:
     required: false
-  label: Sub title
+  label: Sub titel
 - name: text
   type: textarea
   default: ''

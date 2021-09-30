@@ -1,4 +1,70 @@
 ---
 label: Feature
 hide_body: true
-fields: []
+fields:
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - card
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Tekst
+- name: features
+  type: field_group_list
+  fields:
+  - name: icon
+    type: select
+    default: []
+    config:
+      required: false
+      options: []
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Icoon
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Titel
+  - name: text
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Tekst
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Blokken
+- name: link
+  type: include
+  config: {}
+  template: link
+  label: Link

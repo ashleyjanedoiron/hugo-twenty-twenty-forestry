@@ -1,0 +1,11 @@
+---
+label: Meta informatie
+hide_body: true
+fields:
+- name: metaDesc
+  type: text
+  config:
+    required: false
+    min: 120
+    max: 158
+  label: Meta beschrijving

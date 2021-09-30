@@ -1,0 +1,26 @@
+{% if page_sections|length %}
+<div class="o-page-sections">
+{% for section in page_sections %}
+    {%- if loop.first -%}
+        {%- set firstSectionClass = ' -is-first-section' -%}
+    {%- else -%}
+        {%- set firstSectionClass = '' -%}
+    {%- endif -%}
+    {% if section.template === 'paragraph' %}
+        {% include "partials/paragraph.njk" %}
+    {% endif %}
+    {% if section.template === 'paragraph-with-image-left' %}
+        {% include "partials/paragraph-with-image.njk" %}
+    {% endif %}
+    {% if section.template === 'paragraph-with-image-right' %}
+        {% include "partials/paragraph-with-image.njk" %}
+    {% endif %}
+    {% if section.template === 'feature' %}
+        {% include "partials/feature.njk" %}
+    {% endif %}
+    {% if section.template === 'contact-form' %}
+        {% include "partials/contact-form.njk" %}
+    {% endif %}
+{% endfor %}
+</div>
+{% endif %}

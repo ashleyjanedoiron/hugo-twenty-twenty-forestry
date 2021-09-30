@@ -1,0 +1,52 @@
+{%- if bgColor == 'blue' -%}
+    {%- set bgColor = "primary-main" -%}
+{%- elif bgColor == 'blue-light' -%}
+    {%- set bgColor = "primary-fade" -%}
+{%- elif bgColor == 'green' -%}
+    {%- set bgColor = "secondary-main" -%}
+{%- elif bgColor == 'green-light' -%}
+    {%- set bgColor = "secondary-fade" -%}
+{%- elif bgColor == 'red' -%}
+    {%- set bgColor = "tertiary-main" -%}
+{%- elif bgColor == 'red-light' -%}
+    {%- set bgColor = "tertiary-fade" -%}
+{%- elif bgColor == 'grey-light' -%}
+    {%- set bgColor = "neutral-97" -%}
+{%- endif -%}
+
+{% set heroTitle = title %}
+{% set heroIntro = intro %}
+
+<header class="c-hero{% if bgColor %} u-bg-{{ bgColor }}{% else %} u-bg-neutral-100{% endif %}">
+    <div class="o-container">
+        <div class="o-layout c-hero__inner">
+            <div class="c-hero__content u-flow u-col-m-6">
+                <h1 class="c-hero__title u-h4">{{ heroTitle | safe }}</h1>
+                {% if subTitle %}
+                <p class="u-h1 c-hero__subtitle">{{ subTitle }}</p>
+                {% endif %}
+                <p>{{ heroIntro | safe }}</p>
+                {%- if linkUrl and linkText %}
+                    <a href="{{ linkUrl }}" class="c-btn">
+                        <span class="c-btn__text">{{ linkText }}</span>
+                    </a>
+                {%- endif %}
+            </div>
+            <div class="c-hero__image u-col-m-6">
+                    <div class="c-hero__image-wrapper">
+                        {% if imageSet.imageSmall and imageSet.imageMedium and imageSet.imageLarge %}
+                        <figure>
+                            <img alt="{{ imageSet.alt }}"
+                                src="{{ imageSet.imageMedium }}"
+                                srcset="{{ imageSet.imageSmall }} 320w,
+                                        {{ imageSet.imageMedium }} 620w,
+                                        {{ imageSet.imageLarge }} 1240w"
+                                sizes="(min-width: 1280px) 50vw, (min-width: 760px) 50vw, 100vw" width="612" height="413" />
+                        </figure>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

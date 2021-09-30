@@ -1,0 +1,53 @@
+{%- set footerLinks = navigation.footer -%}
+{%- set countFooterLinks = footerLinks.length -%}
+
+<footer class="c-footer">
+    <h2 class="u-visually-hidden">Quicklinks</h2>
+        <div class="c-footer__top">
+            <div class="o-container">
+                <div class="o-layout">
+                    <div class="u-col-m-4 c-footer__company">
+                        {% include "src/assets/svg/logo.svg" %}
+                    </div>
+                    <div class="u-col-m-8 c-footer__quicklinks">
+                        <div class="o-layout">
+                            {%- for item in footerLinks %}
+                            {%- if countFooterLinks > 3 %}
+                            {%- set colSpan = 3 %}
+                            {%- elif countFooterLinks == 3 %}
+                            {%- set colSpan = 4 %}
+                            {%- elif countFooterLinks == 2 %}
+                            {%- set colSpan = 6 %}
+                            {%- endif %}
+                            <section class="u-col-m-6 u-col-l-{{ colSpan }} c-footer__links">
+                                <h3 class="u-h6 c-footer__header">
+                                    <span>{{ item.title }}</span>
+                                    <button type="button" data-toggle class="quicklinks-toggle" aria-expanded="false" aria-controls="submenu-list-{{ loop.index }}">
+                                        {{ item.title }}
+                                        <svg class="icon icon-caret-down">
+                                            <use xlink:href="#icon-caret-down"></use>
+                                        </svg>
+                                    </button>
+                                </h3>
+                                <ul id="submenu-list-{{ loop.index }}" class="c-footer__links-list{% if item.expand %} --is-active{% endif %}">
+                                    {% for subItem in item.links %}
+                                        <li>
+                                            <a href="{{ subItem.url }}">{{ subItem.text }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </section>
+                            {%- endfor %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="c-footer__bottom">
+            <div class="o-container">
+                <p class="c-footer__copyright">&copy; {{ build.timestamp | dateToFormat('yyyy') }} - {{ site.name }}</p>
+                <p class="c-footer__payoff">Duoloog is een product van <a href=""> Purple Unity</a></p>
+            </div>
+        </div>
+    </div>
+</footer>

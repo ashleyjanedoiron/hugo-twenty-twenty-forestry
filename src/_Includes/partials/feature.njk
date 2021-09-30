@@ -1,0 +1,65 @@
+{#
+/**
+ * Feature - Component Feature structure
+ *
+ * Available variables
+ * - featureItems - collection usp items frontmatter template
+ * - countFeatureItems - Return the length of the array from usps
+ * - rowItems - There are always three items in a row
+ * - colwidth - set colwidth to u-col-l-4 as default
+ * - remainder - divide remainder of countUspItems and rowItems(3)
+ * - lastItems - Subtract of countUspItems and remainder if loop index is bigger set new colWidth
+ *
+**/
+#}
+
+{%- set featureItems = section.features -%}
+{%- set countFeatureItems = featureItems.length -%}
+
+{%- set rowItems = 3 -%}
+{%- set colWidth = 'u-col-l-' + 12 / rowItems -%}
+{%- set remainder = countFeatureItems % rowItems -%}
+{%- set lastItems = countFeatureItems - remainder -%}
+
+{%- set bgColor = section.bgColor -%}
+
+{%- if bgColor == 'blue' -%}
+    {%- set bgColor = "primary-main" -%}
+{%- elif bgColor == 'green' -%}
+    {%- set bgColor = "secondary-main" -%}
+{%- elif bgColor == 'red' -%}
+    {%- set bgColor = "tertiary-main" -%}
+{%- endif -%}
+
+<section class="o-stack c-feature{% if bgColor %} u-bg-{{ bgColor }}{% endif %}">
+    <div class="o-container">
+        <div class="o-layout o-layout--center">
+            <div class="u-col-m-8 u-col-xl-8 u-text-center">
+                <div class="c-feature__inner u-flow">
+                    <h2 class="c-feature__section-title">{{ section.title }}</h2>
+                    {% if section.text %}
+                    <p>{{ section.text }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="o-layout o-layout--center c-feature__items">
+            {%- for item in featureItems -%}
+            {%- if loop.index > lastItems -%}
+                {%- set colWidth = 'u-col-l-' + 12 / remainder -%}
+            {%- endif -%}
+
+            <div class="u-col-s-4 u-col-m-4 colWidth c-feature__item">
+                {% include "partials/components/card.njk"%}
+            </div>
+            {%- endfor -%}
+        </div>
+        {%- if section.linkUrl and section.linkText %}
+        <div class="u-text-center c-feature__footer">
+            <a href="{{ section.linkUrl }}" class="c-btn">
+                <span class="c-btn__text">{{ section.linkText }}</span>
+            </a>
+        </div>
+        {%- endif %}
+    </div>
+</section>

@@ -26,3 +26,8 @@ fields:
   config: {}
   template: responsive-image
   label: Afbeelding
+- name: link
+  type: include
+  config: {}
+  template: link
+  label: Link

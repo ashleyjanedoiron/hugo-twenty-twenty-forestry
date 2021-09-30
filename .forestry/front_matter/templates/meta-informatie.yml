@@ -36,3 +36,8 @@ fields:
       file: 
       path: 
   label: Open graph type
+- name: ogImage
+  type: file
+  config:
+    maxSize: 64
+  label: Open graph afbeelding

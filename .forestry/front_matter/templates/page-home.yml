@@ -19,6 +19,7 @@ fields:
   - paragraph-with-image-right
   - paragraph-with-image-left
   - paragraph
+  - feature
   config:
     min: 
     max: 

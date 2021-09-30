@@ -13,3 +13,26 @@ fields:
   type: tag_list
   default: []
   label: Meta zoekwoorden
+- name: ogTitle
+  type: text
+  config:
+    required: false
+  label: Open graph titel
+- name: ogDesc
+  type: text
+  config:
+    required: false
+  label: Open graph beschrijving
+- name: ogType
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - website
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Open graph type

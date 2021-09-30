@@ -1,28 +1,24 @@
 {
-    "main": [
-        {
-            "text": "Over Markaid",
-            "url": ""
-        },
-        {
-            "text": "Cases",
-            "url": ""
-        },
-        {
-            "text": "Diensten",
-            "url": ""
-        },
-        {
-            "text": "Aanpak",
-            "url": ""
-        },
-        {
-            "text": "Werken bij",
-            "url": ""
-        },
-        {
-            "text": "Contact",
-            "url": ""
-        }
-    ]
+  "main": [
+    {
+      "text": "Over Markaid",
+      "url": ""
+    },
+    {
+      "text": "Cases",
+      "url": ""
+    },
+    {
+      "text": "Diensten",
+      "url": ""
+    },
+    {
+      "text": "Aanpak",
+      "url": ""
+    },
+    {
+      "text": "Contact",
+      "url": ""
+    }
+  ]
 }

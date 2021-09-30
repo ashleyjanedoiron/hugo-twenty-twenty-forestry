@@ -1,14 +1,16 @@
 ---
 layout: home
-title: Homepage
+title: Wij bouwen een brug tussen marketeers en technologie
 sub_title: ''
-intro: ''
+intro: Wil je weten hoe?
 image_set:
   image: ''
   image_medium: ''
   image_large: ''
   alternative_text: ''
 pageSections: []
+link_url: ''
+link_text: ''
 
 ---
 ## Markaid

@@ -5,6 +5,10 @@ fields:
 - type: text
   name: layout
   label: layout
-- type: text
-  name: title
-  label: title
+  default: home
+  hidden: true
+- name: hero
+  type: include
+  config: {}
+  template: hero
+  label: Hero

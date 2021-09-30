@@ -9,3 +9,7 @@ fields:
     min: 120
     max: 158
   label: Meta beschrijving
+- name: metaKeywords
+  type: tag_list
+  default: []
+  label: Meta zoekwoorden

@@ -45,7 +45,7 @@
                     <h2 class="c-paragraph__title c-heading-line c-heading-line--left">{{ section.title }}</h2>
                     {%- endif %}
                     {%- if section.text %}
-                    {{ section.text | markdownFilter | safe }}
+                    {{ section.text | markdown | safe }}
                     {%- endif %}
                     {%- if section.link.link_url and section.link.link_text %}
                     <a href="{{ section.link.link_url }}" class="c-btn">

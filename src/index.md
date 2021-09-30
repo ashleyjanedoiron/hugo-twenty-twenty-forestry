@@ -8,7 +8,7 @@ image_set:
   image_medium: ''
   image_large: ''
   alternative_text: ''
-pageSections:
+page_sections:
 - template: paragraph-with-image-right
   text: Markaid helpt marketeers! We ondersteunen marketeers bij de inrichting van
     systemen als het invoeren van content. Hiermee slaan we een brug tussen technologie

@@ -15,7 +15,10 @@ fields:
 - name: pageSections
   type: blocks
   label: Pagina secties
-  template_types: []
+  template_types:
+  - paragraph-with-image-right
+  - paragraph-with-image-left
+  - paragraph
   config:
     min: 
     max: 

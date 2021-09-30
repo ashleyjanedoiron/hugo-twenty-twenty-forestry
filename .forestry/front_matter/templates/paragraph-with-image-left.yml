@@ -1,4 +1,33 @@
 ---
 label: Paragraph-with-image-left
 hide_body: true
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: sub_title
+  type: text
+  config:
+    required: false
+  label: Sub titel
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Tekst
+- name: link
+  type: include
+  config: {}
+  template: link
+  label: Link
+- name: image
+  type: include
+  config: {}
+  template: responsive-image
+  label: Image

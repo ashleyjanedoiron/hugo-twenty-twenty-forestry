@@ -1,0 +1,37 @@
+<section class="c-contact o-stack">
+	<div class="o-container">
+		<div class="o-layout o-layout--center">
+			<div class="u-col-m-8 u-col-l-6">
+				<div class="c-contact__form u-flow" id="contact-form">
+					<h2 class="">{{ section.title }}</h2>
+					<form action="" class="o-form u-flow">
+						<div class="o-form__group">
+							<label for="name">Naam</label>
+							<input type="text" class="o-form__control" id="name" name="name" required />
+						</div>
+						<div class="o-form__group">
+							<label for="email">Wat is je email adres?</label>
+							<input type="email" class="o-form__control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="email" name="email" required />
+							<small id="emailHelp" class="o-form__text">We zullen uw e-mail nooit met iemand anders delen.</small>
+						</div>
+						<div class="o-form__group">
+							<label for="question">Wat is je vraag of opmerking?</label>
+							<textarea class="o-form__control" id="question" name="question" rows="3"></textarea>
+						</div>
+						<div class="o-form__group form-check">
+							<input type="checkbox" class="form-check-input" id="authorize" name="authorize">
+							<label class="form-check-label" for="authorize">Ja, ik geef {{site.name}} toestemming om mijn contactgegevens op te slaan in een klantbeheersysteem en om in de toekomst contact op te nemen met de services, producten en aanbiedingen van {{site.name}}.</label>
+						</div>
+						<div class="o-form__submit">
+							<button type="submit" class="c-btn c-btn--default"><span class="c-btn__text">verzenden</span></button>
+						</div>
+					</form>
+				</div>
+				<div class="form-is-send u-hidden">
+					<h2>{{ section.titleMessage }}</h2>
+					{{ section.textMessage }}
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,23 @@
+---
+label: Contact-form
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Titel
+- name: titleMessage
+  type: text
+  config:
+    required: false
+  label: Titel bericht
+- name: textMessage
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Tekst bericht

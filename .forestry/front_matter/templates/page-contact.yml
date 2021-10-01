@@ -1,0 +1,24 @@
+---
+label: Page contact
+hide_body: false
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: contact
+- name: hero
+  type: include
+  config: {}
+  template: hero
+  label: Hero
+- name: page_sections
+  type: blocks
+  label: Pagina secties
+  template_types:
+  - paragraph
+  config:
+    min: 
+    max: 

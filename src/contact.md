@@ -18,7 +18,7 @@ page_sections:
 - template: paragraph
   title: Dit is een test
   text: Dit is een test voor de pargraaf zonder afbeelding
-  link_url: ''
-  link_text: ''
+  link_url: https://www.nos.nl
+  link_text: Dit is een test
 
 ---

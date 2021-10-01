@@ -12,7 +12,7 @@ link_url: ''
 link_text: ''
 page_sections:
 - template: contact-form
-  title: ''
+  title: Neem contact op
   titleMessage: ''
   textMessage: ''
 

@@ -18,6 +18,7 @@ fields:
   type: blocks
   label: Pagina secties
   template_types:
+  - contact-form
   - paragraph
   config:
     min: 

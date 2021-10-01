@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Wij bouwen een brug tussen marketeers en technologie!!
+title: Wij bouwen een brug tussen marketeers en technologie!!...
 sub_title: ''
 intro: Wil je weten hoe?
 image_set:

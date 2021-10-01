@@ -15,5 +15,10 @@ page_sections:
   title: Neem contact op
   titleMessage: ''
   textMessage: ''
+- template: paragraph
+  title: Dit is een test
+  text: Dit is een test voor de pargraaf zonder afbeelding
+  link_url: ''
+  link_text: ''
 
 ---

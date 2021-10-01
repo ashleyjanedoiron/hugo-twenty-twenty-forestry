@@ -6,7 +6,7 @@ fields:
   type: text
   config:
     required: false
-    min: 120
+    min: 
     max: 158
   label: Meta beschrijving
 - name: metaKeywords

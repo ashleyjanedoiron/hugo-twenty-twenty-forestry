@@ -1,0 +1,11 @@
+{% set pageContent = section.text %}
+
+<article class="o-stack u-flow">
+    <div class="o-container">
+        <div class="o-layout o-layout--center">
+            <div class="u-col-m-8 u-col-xl-8">
+                {{ pageContent | safe }}
+            </div>
+        </div>
+    </div>
+</article>

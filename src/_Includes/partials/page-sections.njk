@@ -21,6 +21,9 @@
     {% if section.template === 'contact-form' %}
         {% include "partials/contact-form.njk" %}
     {% endif %}
+    {% if section.template === 'content-block' %}
+        {% include "partials/content-block.njk" %}
+    {% endif %}
 {% endfor %}
 </div>
 {% endif %}

@@ -4,7 +4,7 @@
     <div class="o-container">
         <div class="o-layout o-layout--center">
             <div class="u-col-m-8 u-col-xl-8">
-                {{ pageContent | safe }}
+                {{ pageContent | markdown | safe }}
             </div>
         </div>
     </div>

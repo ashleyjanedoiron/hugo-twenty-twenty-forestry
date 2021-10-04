@@ -6,9 +6,9 @@ title: Over Markaid
 sub_title: ''
 intro: Hier komt een intro over markaisd
 image_set:
-  image: ''
-  image_medium: ''
-  image_large: ''
+  image: "/src/assets/uploads/yessss.jpg"
+  image_medium: "/src/assets/uploads/yessss.jpg"
+  image_large: "/src/assets/uploads/yessss.jpg"
   alternative_text: ''
 link_url: ''
 link_text: ''

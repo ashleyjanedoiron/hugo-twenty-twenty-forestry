@@ -37,8 +37,8 @@ page_sections:
     alternative_text: ''
 - template: content
   text: "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit. Etiam sed finibus
-    lectus, id molestie dolor. Proin fermentum odio quis tellus tempor, sed gravida
-    odio efficitur. Quisque pulvinar eget elit sit amet tempus. Nullam auctor dolor
+    lectus, id molestie dolor. _Proin fermentum odio quis tellus tempor, sed gravida
+    odio efficitur._ Quisque pulvinar eget elit sit amet tempus. Nullam auctor dolor
     sit amet sapien ultricies, sit amet iaculis arcu tempor. Quisque hendrerit varius
     elit, vel euismod risus porta et. Sed at nisl eget urna commodo eleifend. Integer
     egestas ligula vehicula urna maximus molestie. Quisque viverra et velit a lacinia.

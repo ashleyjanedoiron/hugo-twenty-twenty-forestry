@@ -1,4 +1,32 @@
 ---
 label: Page detail
 hide_body: false
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: true
+  default: page
+- name: hero
+  type: include
+  config: {}
+  template: hero
+  label: Hero
+- name: page_sections
+  type: blocks
+  label: Pagina secties
+  template_types:
+  - paragraph-with-image-left
+  - paragraph-with-image-right
+  - paragraph
+  - feature
+  config:
+    min: 
+    max: 
+- name: meta_informatie
+  type: include
+  config: {}
+  template: meta-informatie
+  label: Meta informatie

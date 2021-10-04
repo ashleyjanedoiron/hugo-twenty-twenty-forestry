@@ -36,16 +36,16 @@ page_sections:
     image_large: ''
     alternative_text: ''
 - template: content
-  content-block: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed
-    finibus lectus, id molestie dolor. Proin fermentum odio quis tellus tempor, sed
-    gravida odio efficitur. Quisque pulvinar eget elit sit amet tempus. Nullam auctor
-    dolor sit amet sapien ultricies, sit amet iaculis arcu tempor. Quisque hendrerit
-    varius elit, vel euismod risus porta et. Sed at nisl eget urna commodo eleifend.
-    Integer egestas ligula vehicula urna maximus molestie. Quisque viverra et velit
-    a lacinia. Pellentesque nec vestibulum quam, ac dictum mauris. Phasellus viverra
-    libero non laoreet blandit. Suspendisse et arcu vitae orci fermentum sodales ac
-    ut erat. Vestibulum eget lectus tincidunt, vestibulum ligula vel, sagittis tortor.
-    Phasellus sed ex augue. Proin id eros vestibulum, pellentesque mauris vel, pellentesque
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed finibus
+    lectus, id molestie dolor. Proin fermentum odio quis tellus tempor, sed gravida
+    odio efficitur. Quisque pulvinar eget elit sit amet tempus. Nullam auctor dolor
+    sit amet sapien ultricies, sit amet iaculis arcu tempor. Quisque hendrerit varius
+    elit, vel euismod risus porta et. Sed at nisl eget urna commodo eleifend. Integer
+    egestas ligula vehicula urna maximus molestie. Quisque viverra et velit a lacinia.
+    Pellentesque nec vestibulum quam, ac dictum mauris. Phasellus viverra libero non
+    laoreet blandit. Suspendisse et arcu vitae orci fermentum sodales ac ut erat.
+    Vestibulum eget lectus tincidunt, vestibulum ligula vel, sagittis tortor. Phasellus
+    sed ex augue. Proin id eros vestibulum, pellentesque mauris vel, pellentesque
     sem.
 metaDesc: ''
 ogTitle: ''

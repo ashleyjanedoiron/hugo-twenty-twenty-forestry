@@ -2,7 +2,7 @@
 label: Content
 hide_body: true
 fields:
-- name: content
+- name: content-block
   type: textarea
   default: ''
   config:

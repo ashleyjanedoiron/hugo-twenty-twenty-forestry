@@ -23,6 +23,7 @@ fields:
   - paragraph-with-image-right
   - paragraph
   - feature
+  - content
   config:
     min: 
     max: 

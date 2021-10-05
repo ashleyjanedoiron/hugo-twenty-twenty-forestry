@@ -7,9 +7,10 @@ sub_title: ''
 intro: Hier komt een intro over markaisd
 image_set:
   image: "/src/assets/uploads/yessss.jpg"
-  image_medium: "/src/assets/uploads/yessss.jpg"
-  image_large: "/src/assets/uploads/yessss.jpg"
+  image_medium: "/assets/uploads/bridge.jpg"
+  image_large: "/assets/uploads/bridge.jpg"
   alternative_text: ''
+  image_small: "/assets/uploads/bridge.jpg"
 link_url: ''
 link_text: ''
 page_sections:
@@ -24,6 +25,7 @@ page_sections:
     image_medium: ''
     image_large: ''
     alternative_text: ''
+    image_small: ''
 - template: paragraph-with-image-right
   title: Paragraaf met een afbeelding rechts
   text: Paragraaf met een afbeelding rechts
@@ -35,6 +37,7 @@ page_sections:
     image_medium: ''
     image_large: ''
     alternative_text: ''
+    image_small: ''
 - template: content
   text: |-
     ## Heading 2

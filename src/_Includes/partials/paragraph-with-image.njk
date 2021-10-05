@@ -19,18 +19,23 @@
 **/
  #}
 
+{% set imageSmall = section.image_set.image_small %}
+{% set imageMedium = section.image_set.image_medium %}
+{% set imageLarge = section.image_set.image_large %}
+{% set imageAlt = section.image_set.alt %}
+
 <section class="c-paragraph o-stack{{ modifierClass }}{{ firstSectionClass }}">
     <div class="o-container">
         <div class="c-paragraph__inner o-layout{% if section.template === 'paragraph-with-image-right' %} o-layout--reverse{% endif %}">
             <div class="u-col-m-6 c-paragraph__image">
-                {%- if section.image_set.image_small and section.image_set.image_medium and section.image_set.image_large %}
+                {%- if imageSmall and imageMedium and imageLarge %}
                 <div class="c-paragraph__image-wrapper">
                     <figure>
-                        <img alt="{{ section.image_set.alt }}"
-                            src="{{ section.image_set.image_medium }}"
-                            srcset="{{ section.image_set.image_small }} 320w,
-                                    {{ section.image_set.image_medium }} 640w,
-                                    {{ section.image_set.image_large }} 1280w"
+                        <img alt="{{ imageAlt }}"
+                            src="{{ imageMedium }}"
+                            srcset="{{ imageSmall }} 320w,
+                                    {{ imageMedium }} 640w,
+                                    {{ imageLarge }} 1280w"
                             sizes="(min-width: 760px) 50vw, 100vw" />
                     </figure>
                 </div>

@@ -34,10 +34,10 @@ page_sections:
   link_text: ''
   image_set:
     image: ''
-    image_medium: ''
-    image_large: ''
+    image_medium: "/assets/uploads/yessss.jpg"
+    image_large: "/assets/uploads/yessss.jpg"
     alternative_text: ''
-    image_small: ''
+    image_small: "/assets/uploads/yessss.jpg"
 - template: content
   text: |-
     ## Heading 2

@@ -6,7 +6,7 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: image
+  - name: image_small
     type: file
     config:
       maxSize: 64

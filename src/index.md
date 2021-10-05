@@ -8,6 +8,7 @@ image_set:
   image_medium: "/assets/uploads/bridge.jpg"
   image_large: "/assets/uploads/bridge.jpg"
   alternative_text: ''
+  image_small: "/assets/uploads/bridge.jpg"
 page_sections:
 - template: feature
   title: Drie blokken
@@ -45,6 +46,7 @@ page_sections:
     image_medium: "/assets/uploads/yessss.jpg"
     image_large: "/assets/uploads/yessss.jpg"
     alternative_text: ''
+    image_small: ''
 link_url: ''
 link_text: ''
 metaDesc: ''

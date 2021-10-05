@@ -17,6 +17,11 @@
 {% set heroTitle = title %}
 {% set heroIntro = intro %}
 
+{% set imageSmall = image_set.image_small %}
+{% set imageMedium = image_set.image_medium %}
+{% set imageLarge = image_set.image_large %}
+{% set imageAlt = image_set.alt %}
+
 <header class="c-hero{% if bgColor %} u-bg-{{ bgColor }}{% else %} u-bg-neutral-100{% endif %}">
     <div class="o-container">
         <div class="o-layout c-hero__inner">
@@ -34,13 +39,13 @@
             </div>
             <div class="c-hero__image u-col-m-6">
                     <div class="c-hero__image-wrapper">
-                        {% if imageSet.imageSmall and imageSet.imageMedium and imageSet.imageLarge %}
+                        {% if imageSmall and imageMedium and imageLarge %}
                         <figure>
-                            <img alt="{{ imageSet.alt }}"
-                                src="{{ imageSet.imageMedium }}"
-                                srcset="{{ imageSet.imageSmall }} 320w,
-                                        {{ imageSet.imageMedium }} 620w,
-                                        {{ imageSet.imageLarge }} 1240w"
+                            <img alt="{{ imageAlt }}"
+                                src="{{ imageMedium }}"
+                                srcset="{{ imageSmall }} 320w,
+                                        {{ imageMedium }} 620w,
+                                        {{ imageLarge }} 1240w"
                                 sizes="(min-width: 1280px) 50vw, (min-width: 760px) 50vw, 100vw" width="612" height="413" />
                         </figure>
                         {% endif %}

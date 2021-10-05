@@ -46,7 +46,7 @@ page_sections:
     image_medium: "/assets/uploads/yessss.jpg"
     image_large: "/assets/uploads/yessss.jpg"
     alternative_text: ''
-    image_small: ''
+    image_small: "/assets/uploads/yessss.jpg"
 link_url: ''
 link_text: ''
 metaDesc: ''

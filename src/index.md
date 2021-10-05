@@ -41,9 +41,9 @@ page_sections:
   sub_title: ''
   link_url: ''
   image_set:
-    image: ''
-    image_medium: ''
-    image_large: ''
+    image: "/assets/uploads/yessss.jpg"
+    image_medium: "/assets/uploads/yessss.jpg"
+    image_large: "/assets/uploads/yessss.jpg"
     alternative_text: ''
 link_url: ''
 link_text: ''

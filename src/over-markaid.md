@@ -22,10 +22,10 @@ page_sections:
   link_text: ''
   image_set:
     image: ''
-    image_medium: ''
-    image_large: ''
+    image_medium: "/assets/uploads/panic.jpg"
+    image_large: "/assets/uploads/panic.jpg"
     alternative_text: ''
-    image_small: ''
+    image_small: "/assets/uploads/panic.jpg"
 - template: paragraph-with-image-right
   title: Paragraaf met een afbeelding rechts
   text: Paragraaf met een afbeelding rechts

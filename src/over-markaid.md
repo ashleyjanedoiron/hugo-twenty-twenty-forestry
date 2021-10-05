@@ -36,7 +36,7 @@ page_sections:
     image: ''
     image_medium: "/assets/uploads/yessss.jpg"
     image_large: "/assets/uploads/yessss.jpg"
-    alternative_text: ''
+    alternative_text: Dit is een test
     image_small: "/assets/uploads/yessss.jpg"
 - template: content
   text: |-

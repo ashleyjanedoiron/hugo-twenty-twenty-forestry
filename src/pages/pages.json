@@ -1,4 +1,0 @@
-{
-    "layout": "layouts/single.njk",
-    "permalink": "{{ title | slug }}/index.html"
-}

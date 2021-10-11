@@ -1,5 +1,5 @@
 ---
-layout: layouts/contact.njk
+layout: contact
 title: Contact
 sub_title: ''
 intro: ''

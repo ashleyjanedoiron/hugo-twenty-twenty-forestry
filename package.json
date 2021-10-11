@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx @11ty/eleventy --serve",
-    "build": "npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "forestry:preview": "npx @11ty/eleventy --serve --port 8080 --output=_site"
+    "start": "npx eleventy --serve",
+    "build": "npx eleventy"
   },
   "keywords": [],
   "author": "",

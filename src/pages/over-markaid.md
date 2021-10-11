@@ -1,10 +1,11 @@
 ---
 layout: page
+permalink: '{{ title | slug }}/index.html'
 metaKeywords: []
 ogType: ''
 title: Over Markaid
 sub_title: ''
-intro: Hier komt een intro over markaisd
+intro: Hier komt een intro over markaid
 image_set:
   image: "/src/assets/uploads/yessss.jpg"
   image_medium: "/assets/uploads/bridge.jpg"

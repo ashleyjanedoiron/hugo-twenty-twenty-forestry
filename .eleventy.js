@@ -21,7 +21,6 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addLayoutAlias('page', 'layouts/single.njk');
     // eleventyConfig.addLayoutAlias('projects', 'layouts/projects/list.njk');
     // eleventyConfig.addLayoutAlias('project', 'layouts/projects/single.njk');
-    // eleventyConfig.addLayoutAlias('contact', 'layouts/contact.njk');
 
     // Copy `img/` to `_site/img`
     eleventyConfig.addPassthroughCopy('src/assets/');

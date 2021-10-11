@@ -41,3 +41,4 @@ fields:
   label: Meta informatie
 pages:
 - src/pages/aanpak.md
+- src/pages/diensten.md

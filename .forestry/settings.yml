@@ -6,11 +6,8 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: document
-  path: src/index.md
-  label: Homepage
 - type: directory
-  path: src/pages
+  path: src
   label: Pages
   create: documents
   match: "*.md"

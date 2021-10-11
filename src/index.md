@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: home
 title: Markaid
 sub_title: Wij bouwen een  brug tussen  marketeers en  technologie
 intro: Wil je weten hoe?

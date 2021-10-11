@@ -3,11 +3,6 @@ label: Page home
 hide_body: false
 display_field: layout
 fields:
-- type: text
-  name: layout
-  label: layout
-  default: home
-  hidden: true
 - name: hero
   type: include
   config: {}

@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Wij bouwen een brug tussen marketeers en technologie!
-sub_title: ''
+sub_title: Wij bouwen een  brug tussen  marketeers en  technologie
 intro: Wil je weten hoe?
 image_set:
   image: "/assets/uploads/bridge.jpg"

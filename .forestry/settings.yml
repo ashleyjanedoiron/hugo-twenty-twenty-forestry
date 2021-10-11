@@ -22,6 +22,10 @@ sections:
   label: Cases
   create: documents
   match: "*.md"
+- type: document
+  path: src/contact.md
+  label: Contact
+  match: "**/*"
 - type: heading
   label: Global
 - type: document

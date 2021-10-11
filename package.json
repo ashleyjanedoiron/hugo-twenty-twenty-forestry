@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "eleventy --input=src --serve",
+    "build": "eleventy --input=src"
   },
   "keywords": [],
   "author": "",

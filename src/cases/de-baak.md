@@ -1,6 +1,8 @@
 ---
 layout: page
-metaKeywords: []
+metaKeywords:
+- de baak
+- content
 ogType: ''
 title: De baak
 sub_title: Hier komt een subtitel

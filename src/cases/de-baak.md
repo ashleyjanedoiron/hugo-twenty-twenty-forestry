@@ -23,9 +23,9 @@ page_sections:
   link_url: ''
   link_text: ''
   image_set:
-    image_small: ''
-    image_medium: ''
-    image_large: ''
+    image_small: "/assets/uploads/panic.jpg"
+    image_medium: "/assets/uploads/panic.jpg"
+    image_large: "/assets/uploads/panic.jpg"
     alternative_text: ''
 metaDesc: ''
 ogTitle: ''

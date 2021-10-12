@@ -25,15 +25,15 @@ page_sections:
   link_url: ''
   link_text: ''
 - template: paragraph-with-image-right
-  title: ''
-  sub_title: ''
-  text: ''
+  title: OIlplossing
+  sub_title: Dit is een pargraaf met afbeelding rechts
+  text: Hier komt een tekst over de oplossing
   link_url: ''
   link_text: ''
   image_set:
-    image_small: ''
-    image_medium: ''
-    image_large: ''
+    image_small: "/assets/uploads/yessss.jpg"
+    image_medium: "/assets/uploads/yessss.jpg"
+    image_large: "/assets/uploads/yessss.jpg"
     alt: ''
 metaDesc: ''
 ogTitle: ''

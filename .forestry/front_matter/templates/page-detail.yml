@@ -34,3 +34,4 @@ fields:
   label: Meta informatie
 pages:
 - src/cases/de-baak.md
+- src/cases/dll.md

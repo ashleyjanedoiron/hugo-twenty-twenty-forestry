@@ -22,3 +22,8 @@ fields:
   config:
     min: 
     max: 
+- name: meta_informatie
+  type: include
+  config: {}
+  template: meta-informatie
+  label: Meta informatie

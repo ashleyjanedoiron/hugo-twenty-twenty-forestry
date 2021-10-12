@@ -16,6 +16,10 @@ page_sections:
 - template: feature
   title: Wij helpen
   features:
+  - icon: ''
+    title: Eindelijk rendement uit je marketingtool
+    text: Wereldwijd is 80% van alle marketeers niet tevreden met de huidige online
+      tools. Herkenbaar? Wij je rendement te halen uit je huidige of nieuwe tools.
   - title: Jungle van digitale marketing tools
     text: CMS, DXP, DAM, digital analytics, content curation, e-mail marketing, marketing
       automation, chatbot, social listening, voice, CRM, ... Duizelt het al? Wij brengen

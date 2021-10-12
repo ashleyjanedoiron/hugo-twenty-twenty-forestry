@@ -1,0 +1,53 @@
+{%- set CollectionItems = collections.projecten -%}
+
+<section class="c-projects o-stack">
+    <div class="o-container">
+        <div class="o-layout o-layout--center">
+            <div class="u-col-m-8 u-col-xl-8 u-text-center">
+                <div class="c-projects__inner u-flow">
+                    <h2 class="c-projects__section-title">{{ section.title }}</h2>
+                    {% if section.text %}
+                    {{ section.text | markdown | safe }}
+                    {# <p>{{ section.text }}</p> #}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <ul class="o-list-bare o-layout o-layout--center c-projects__list">
+            {%- for project in CollectionItems -%}
+            <li class="u-col-m-5">
+                <section class="c-card c-card--elevated c-card--project">
+                    {%- if project.data.imageSet.imageSmall and project.data.imageSet.imageMedium and project.data.imageSet.imageLarge %}
+                    <div class="c-card__image">
+                        <figure>
+                            <img alt="{{ project.data.imageSet.alt }}"
+                                src="{{ project.data.imageSet.imageMedium }}"
+                                srcset="{{ project.data.imageSet.imageSmall }} 288w,
+                                        {{ project.data.imageSet.imageMedium }} 430w,
+                                        {{ project.data.imageSet.imageLarge }} 860w"
+                                sizes="(min-width: 1200px) 50vw, (min-width: 760px) 50vw, 100vw" width="612" height="413" />
+                        </figure>
+                    </div>
+                    {% endif %}
+                    <div class="c-card__content u-flow">
+                        {%- if project.data.subTitle %}
+                        <h3 class="u-h5 c-card__title">{{ project.data.subTitle }}</h3>
+                        {% endif -%}
+                        {%- if project.data.category %}
+                        <p class="c-card__subtitle">{{ project.data.category }}</p>
+                        {% endif %}
+                        {%- if project.data.intro %}
+                        <p>{{ project.data.intro }}</p>
+                        {% endif -%}
+                        {% if project.data.subTitle %}
+                        <a href="{{ project.url }}" class="c-btn">
+                            <span class="c-btn__text">{{ project.data.subTitle }}</span>
+                        </a>
+                        {% endif %}
+                    </div>
+                </section>
+            </li>
+            {%- endfor %}
+        </ul>
+    </div>
+</section>

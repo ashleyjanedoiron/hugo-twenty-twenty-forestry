@@ -12,6 +12,7 @@ image_set:
   image_medium: "/assets/uploads/bridge.jpg"
   image_large: "/assets/uploads/bridge.jpg"
   alternative_text: Dit is een alternatieve tekst voor de afbeelding
+  alt: Hietr komt een alternatieve tekst voor de afbeedling
 link_url: ''
 link_text: ''
 page_sections:
@@ -29,6 +30,7 @@ page_sections:
     image_medium: "/assets/uploads/panic.jpg"
     image_large: "/assets/uploads/panic.jpg"
     alternative_text: ''
+    alt: ''
 metaDesc: ''
 ogTitle: ''
 ogDesc: ''

@@ -28,16 +28,10 @@ module.exports = function (eleventyConfig) {
 
     // You can return your Config object (optional).
     return {
-        // If your site lives in a different subdirectory, change this.
-        // Leading or trailing slashes are all normalized away, so don’t worry about it.
-        // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
-        // This is only used for URLs (it does not affect your file structure)
-        pathPrefix: "/",
         dir: {
-            input: "src",
-            includes: "_includes",
-            output: "_site",
-            data: "_data"
+            input: 'src',
+            output: '_site',
+            data: '_data'
         },
         passthroughFileCopy: true
     };

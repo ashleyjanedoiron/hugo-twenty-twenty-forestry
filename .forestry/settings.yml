@@ -20,6 +20,8 @@ sections:
   label: Cases
   create: documents
   match: "*.md"
+  templates:
+  - page-detail
 - type: heading
   label: Global
 - type: document

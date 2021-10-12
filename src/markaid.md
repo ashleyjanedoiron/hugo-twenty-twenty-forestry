@@ -32,8 +32,8 @@ page_sections:
       tools. Herkenbaar? Wij je rendement te halen uit je huidige of nieuwe tools.
   type: ''
   text: ''
-  link_url: ''
-  link_text: ''
+  link_url: http://www.nu.nl
+  link_text: Onze diensten
 metaDesc: ''
 ogTitle: ''
 ogDesc: ''

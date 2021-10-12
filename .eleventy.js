@@ -34,10 +34,10 @@ module.exports = function (eleventyConfig) {
         // This is only used for URLs (it does not affect your file structure)
         pathPrefix: "/",
         dir: {
-            input: 'src',
+            input: "src",
             includes: "_includes",
-            output: '_site',
-            data: '_data'
+            output: "_site",
+            data: "_data"
         },
         passthroughFileCopy: true
     };

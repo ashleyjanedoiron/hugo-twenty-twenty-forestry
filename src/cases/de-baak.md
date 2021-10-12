@@ -5,8 +5,8 @@ metaKeywords:
 - De baak
 - Content
 ogType: ''
-title: De baak
-sub_title: Hier komt een subtitel
+title: 'De baak '
+sub_title: Hier komt een subtitel toch
 intro: Hier komt een intro
 image_set:
   image_small: "/assets/uploads/bridge.jpg"

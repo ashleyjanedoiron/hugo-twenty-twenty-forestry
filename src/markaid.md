@@ -12,7 +12,19 @@ image_set:
   alt: Een alternatieve tekst voor een afbeelding
 link_url: ''
 link_text: ''
-page_sections: []
+page_sections:
+- template: feature
+  title: Wij helpen
+  features:
+  - title: Jungle van digitale marketing tools
+    text: CMS, DXP, DAM, digital analytics, content curation, e-mail marketing, marketing
+      automation, chatbot, social listening, voice, CRM, ... Duizelt het al? Wij brengen
+      structuur in jouw jungle.
+    icon: ''
+  type: ''
+  text: ''
+  link_url: ''
+  link_text: ''
 metaDesc: ''
 ogTitle: ''
 ogDesc: ''

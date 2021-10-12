@@ -13,7 +13,22 @@ image_set:
   alternative_text: ''
 link_url: ''
 link_text: ''
-page_sections: []
+page_sections:
+- template: paragraph-with-image-left
+  title: Uitdaging
+  sub_title: Hier komt een subtitel
+  text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam mollis eleifend
+    sem. Aenean condimentum mauris quis libero vehicula, vel auctor orci interdum.
+    Integer dictum in est eget vestibulum. Aenean eget ullamcorper nunc, a hendrerit
+    quam. Donec id nibh a eros gravida tincidunt vitae eget massa. Curabitur congue
+    dolor eget nibh dictum tristique. '
+  link_url: ''
+  link_text: ''
+  image_set:
+    image_small: ''
+    image_medium: ''
+    image_large: ''
+    alternative_text: ''
 metaDesc: ''
 ogTitle: ''
 ogDesc: ''

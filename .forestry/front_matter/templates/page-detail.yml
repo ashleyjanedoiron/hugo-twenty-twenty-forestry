@@ -32,3 +32,5 @@ fields:
   config: {}
   template: meta-informatie
   label: Meta informatie
+pages:
+- src/cases/de-baak.md

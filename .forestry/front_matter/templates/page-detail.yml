@@ -10,13 +10,6 @@ fields:
   label: Layout
   hidden: true
   default: page
-- name: permalink
-  type: text
-  config:
-    required: false
-  label: Permalink
-  hidden: true
-  default: "{{ title | slug }}/index.html"
 - name: hero
   type: include
   config: {}

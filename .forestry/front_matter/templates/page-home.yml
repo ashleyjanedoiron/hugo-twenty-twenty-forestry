@@ -31,5 +31,3 @@ fields:
   config: {}
   template: meta-informatie
   label: Meta informatie
-pages:
-- src/index.md

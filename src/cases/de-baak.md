@@ -12,7 +12,21 @@ image_set:
   alternative_text: Dit is een alternatieve tekst voor de afbeelding
 link_url: ''
 link_text: ''
-page_sections: []
+page_sections:
+- template: paragraph-with-image-left
+  title: Uitdaging
+  sub_title: Hier komt een subtitel
+  text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam posuere accumsan
+    laoreet. Fusce vitae ornare lectus. Vivamus at porta est, ac cursus ligula. Praesent
+    consectetur nulla metus, ac porta quam ornare eu. Aliquam erat volutpat. Quisque
+    sodales vestibulum nibh eget viverra.
+  link_url: ''
+  link_text: ''
+  image_set:
+    image_small: ''
+    image_medium: ''
+    image_large: ''
+    alternative_text: ''
 metaDesc: ''
 ogTitle: ''
 ogDesc: ''

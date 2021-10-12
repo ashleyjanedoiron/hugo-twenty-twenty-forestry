@@ -1,7 +1,9 @@
 ---
 layout: page
 permalink: "{{ title | slug }}/index.html"
-metaKeywords: []
+metaKeywords:
+- De baak
+- Content
 ogType: ''
 title: De baak
 sub_title: Hier komt een subtitel

@@ -24,6 +24,9 @@
     {% if section.template === 'content' %}
         {% include "partials/content-block.njk" %}
     {% endif %}
+    {% if section.template === 'project-list' %}
+        {% include "partials/components/project-list.njk" %}
+    {% endif %}
 {% endfor %}
 </div>
 {% endif %}

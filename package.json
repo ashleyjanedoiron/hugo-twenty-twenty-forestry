@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx eleventy --serve",
-    "build": "npx eleventy"
+    "start": "eleventy input=src --serve",
+    "build": "eleventy"
   },
   "keywords": [],
   "author": "",

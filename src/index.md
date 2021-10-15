@@ -1,5 +1,5 @@
 ---
-layout: /layouts/home.njk
+layout: home
 metaKeywords: []
 ogType: ''
 title: Markaid

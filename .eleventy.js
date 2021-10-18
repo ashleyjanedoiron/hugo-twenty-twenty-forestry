@@ -16,9 +16,9 @@ module.exports = function (eleventyConfig) {
     *
     * @link https://www.11ty.dev/docs/layouts/#layout-aliasing
     */
-    eleventyConfig.addLayoutAlias('home', 'home.njk');
+    eleventyConfig.addLayoutAlias('home', 'layouts/home.njk');
     eleventyConfig.addLayoutAlias('contact', 'layouts/contact.njk');
-    eleventyConfig.addLayoutAlias('page', 'single.njk');
+    eleventyConfig.addLayoutAlias('page', 'layouts/single.njk');
     eleventyConfig.addLayoutAlias('projects', 'layouts/project/list.njk');
     eleventyConfig.addLayoutAlias('project', 'layouts/project/single.njk');
 
@@ -34,6 +34,7 @@ module.exports = function (eleventyConfig) {
             includes: "_includes",
             data: '_data'
         },
-        passthroughFileCopy: true
+        passthroughFileCopy: true,
+        pathPrefix: "/"
     }
 };

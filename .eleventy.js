@@ -35,5 +35,5 @@ module.exports = function (eleventyConfig) {
             data: '_data'
         },
         passthroughFileCopy: true
-    };
+    }
 };

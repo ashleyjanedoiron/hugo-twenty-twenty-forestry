@@ -6,14 +6,16 @@ webhook_url:
 sections:
 - type: heading
   label: Content
+- type: document
+  path: src/index.md
+  label: Homepage
+  match: "**/*"
 - type: directory
-  path: src
+  path: src/pages
   label: Pages
   create: documents
   match: "*.md"
   templates:
-  - page-home
-  - page-contact
   - page-detail
 - type: directory
   path: src/cases

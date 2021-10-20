@@ -2,13 +2,6 @@
 label: Page project overview
 hide_body: false
 fields:
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Layout
-  hidden: true
-  default: projects
 - name: hero
   type: include
   config: {}

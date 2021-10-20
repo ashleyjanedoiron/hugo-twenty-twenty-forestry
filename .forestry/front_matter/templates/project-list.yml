@@ -2,12 +2,12 @@
 label: Project list
 hide_body: true
 fields:
-- name: title
+- name: sectionTitle
   type: text
   config:
     required: false
   label: Titel
-- name: text
+- name: sectionText
   type: textarea
   default: ''
   config:

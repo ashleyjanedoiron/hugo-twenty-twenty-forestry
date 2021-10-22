@@ -1,0 +1,21 @@
+{% set cardType = section.type %}
+
+<section class="c-card{% if section.type %} c-card--elevated{% endif %}">
+    {% if item.icon %}
+    <div class="c-card__icon">
+        <svg class="c-icon c-icon-{{ item.icon }}">
+            <use xlink:href="#icon-{{ item.icon }}"></use>
+        </svg>
+        {% if not cardType %}
+        <svg class="bg bg-blob">
+            <use xlink:href="#icon-blob-{{[1, 2, 3] | random }}"></use>
+        </svg>
+        {% endif %}
+    </div>
+    {% endif %}
+    <div class="c-card__content u-flow">
+        <h3 class="u-h5 c-card__title">{{ item.title }}</h3>
+        {# {{ item.text | markdownFilter | safe }} #}
+        <p>{{ item.text }}</p>
+    </div>
+</section>

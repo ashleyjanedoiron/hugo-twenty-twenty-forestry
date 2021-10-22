@@ -1,0 +1,64 @@
+{#
+/**
+ * Paragraph with image- Component paragraph with image left and right
+ *
+ * Available variables
+ * - modifierClass - When inserted on homepage the paragraph is getting a class u-diapositive so the content is colored white
+ * - firstSectionClass - the first section gets a class so padding-top is set to zero
+ *
+ * - section.image_set.image_small - smallest image 320 x 427
+ * - section.image_set.image_medium - medium image 640 x 854
+ * - section.image_set.image_large - largest image 1280 x 1708
+ * - section.image_set.alt - Alternative text
+ * -
+ * - section.subtitle - subtitle of paragraph
+ * - section.title - title of paragraph
+ * - section.text - text of paragraph
+ * - section.link.link_url - link url
+ * - section.link.link_text - text link
+**/
+ #}
+
+{% set imageSmall = section.image_set.image_small %}
+{% set imageMedium = section.image_set.image_medium %}
+{% set imageLarge = section.image_set.image_large %}
+{% set imageAlt = section.image_set.alt %}
+
+<section class="c-paragraph o-stack{{ modifierClass }}{{ firstSectionClass }}">
+    <div class="o-container">
+        <div class="c-paragraph__inner o-layout{% if section.template === 'paragraph-with-image-right' %} o-layout--reverse{% endif %}">
+            <div class="u-col-m-6 c-paragraph__image">
+                {%- if imageSmall and imageMedium and imageLarge %}
+                <div class="c-paragraph__image-wrapper">
+                    <figure>
+                        <img alt="{{ imageAlt }}"
+                            src="{{ imageMedium }}"
+                            srcset="{{ imageSmall }} 320w,
+                                    {{ imageMedium }} 640w,
+                                    {{ imageLarge }} 1280w"
+                            sizes="(min-width: 760px) 50vw, 100vw" />
+                    </figure>
+                </div>
+                {%- endif %}
+            </div>
+            <div class="u-col-m-6 c-paragraph__content">
+                <div class="c-paragraph__content-inner">
+                    {%- if section.subtitle %}
+                    <p class="c-paragraph__subtitle u-h6 mb-0">{{ section.subtitle }}</p>
+                    {% endif -%}
+                    {%- if section.title %}
+                    <h2 class="c-paragraph__title c-heading-line c-heading-line--left">{{ section.title }}</h2>
+                    {%- endif %}
+                    {%- if section.text %}
+                    {{ section.text | markdown | safe }}
+                    {%- endif %}
+                    {%- if section.link.link_url and section.link.link_text %}
+                    <a href="{{ section.link.link_url }}" class="c-btn">
+                        <span class="c-btn__inner">{{ section.link.link_text }} <i class="c-btn__arrow" aria-hidden="true"></i></span>
+                    </a>
+                    {%- endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

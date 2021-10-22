@@ -1,0 +1,21 @@
+<section class="c-paragraph u-py-5{{ firstSectionClass }}">
+    <div class="o-container">
+        <div class="o-layout o-layout--center">
+            <div class="u-col-m-10 u-col-xl-6 c-paragraph__content u-text-center">
+                {% if section.title %}
+                <h2 class="c-paragraph__title c-heading-line c-heading-line--center">{{ section.title }}</h2>
+                {% endif %}
+                {% if section.text %}
+                <div class="c-paragraph__text">
+                    {{ section.text | markdown | safe  }}
+                </div>
+                {% endif %}
+                {% if section.link.link_url and section.link.link_text %}
+                <a href="{{ section.link.link_url }}" class="c-btn">
+                    <span class="c-btn__inner">{{ section.link.link_text }} <i class="c-btn__arrow" aria-hidden="true"></i></span>
+                </a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>

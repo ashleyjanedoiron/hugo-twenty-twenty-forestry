@@ -1,0 +1,44 @@
+{#
+/**
+ * Navigation - Component navigation structure
+ *
+ * Available variables
+ * - nav.items - data collection nav items in data folder nav.json
+ *
+ * Collection navigation
+ * - item.text - text link
+ * - item.rel - external url false or true
+ * - item.url - url page or external url
+ * - item.submenu - submenu or dropdown menu
+ * - subitem.text - text link submenu item
+ * - subitem.url - url link submenu item
+ *
+ * - currentAttribute - sets aria-current="page" attribute of link when it's active (true)
+ * - relAttribute - sets rel attribute when it's an external url
+**/
+ #}
+
+{%- if navigation.main -%}
+<nav class="c-nav">
+	<button class="c-nav__btn" data-toggle data-toggle-options='{"blockScroll": true}' aria-expanded="false" aria-controls="menu">
+		<span class="u-visually-hidden">Menu</span>
+		<span class="line"></span>
+		<span class="line"></span>
+		<span class="line"></span>
+	</button>
+	<ol id="menu" class="c-nav__list">
+		{%- for item in navigation.main -%}
+
+		{%- set currentAttribute = '' -%}
+
+		{%- if item.url == page.url -%}
+			{%- set currentAttribute = ' aria-current="page"' -%}
+		{%- endif -%}
+
+		<li class="c-nav__item">
+			<a href="{{ item.url | url }}"{{ currentAttribute | safe }} class="c-nav__link">{{ item.text }}</a>
+		</li>
+	{%- endfor -%}
+	</ol>
+</nav>
+{% endif %}

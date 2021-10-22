@@ -1,0 +1,22 @@
+{#
+/**
+ * Logo - Component logo Structure
+ *
+ * Available variables
+ * - page.url - Url of page
+ * - site.name - name of website see folder _data/site.json
+ *
+**/
+#}
+
+<div class="c-logo">
+    {% if page.url == "/" %}
+        {% include "src/assets/svg/logo.svg" %}
+        <span class="u-visually-hidden">{{ site.name }}</span>
+    {% else %}
+    <a href="/" alt="Terug naar homepagina">
+        {% include "src/assets/svg/logo.svg" %}
+        <span class="u-visually-hidden">{{ site.name }}</span>
+    </a>
+    {% endif %}
+</div>

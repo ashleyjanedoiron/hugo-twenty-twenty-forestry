@@ -1,0 +1,14 @@
+{% extends "layouts/base.njk" %}
+{% set pageType = 'contact' %}
+
+{% block content %}
+    {% include "partials/hero.njk" %}
+    {% include "partials/page-sections.njk" %}
+    {% if content %}
+    <article>
+        <div class="container">
+            {{ content | safe }}
+        </div>
+    </article>
+    {% endif %}
+{% endblock %}

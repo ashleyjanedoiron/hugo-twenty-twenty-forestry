@@ -1,9 +1,9 @@
 ---
 title: Works and Days
-date: 2020-03-04T10:40:24+00:00
+date: 2020-03-04T10:40:24.000+00:00
 image: images/2020-three-quarters-1.png
 author:
-- Admin
+- Ashley Doiron
 categories:
 - Working days
 tags:

@@ -8,3 +8,5 @@ fields:
     required: true
   label: Title
   description: This is a test.
+pages:
+- content/testPosts/this-is-a-test.md

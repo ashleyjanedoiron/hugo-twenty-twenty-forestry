@@ -11,6 +11,13 @@ sections:
 - type: heading
   label: Blog Post
 - type: directory
+  path: content/testPosts
+  label: Test Posts
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: directory
   path: content/blog
   label: Post
   create: documents

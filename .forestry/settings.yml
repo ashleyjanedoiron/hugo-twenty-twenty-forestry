@@ -16,7 +16,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - post
+  - test-posts
 - type: directory
   path: content/blog
   label: Post
